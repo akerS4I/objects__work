@@ -21,8 +21,8 @@ input.addEventListener("keydown", (e) => {
       });
     } else {
       input.style.cssText = "opacity: 0;";
-      result.innerText = `обьекта с названием "${e.target.value}" не существует
-      создайте новую переменную:`;
+      result.innerText = `Свойство в существующем объекте, с данным ключом "{e.target.value}", не существует.
+      Создайте новое свойство, вводя ключ и его значение в нижестоящих инпутах.`;
       op.forEach((op) => {
         op.style.cssText = "opacity: 1;";
       });

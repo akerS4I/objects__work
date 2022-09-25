@@ -27,9 +27,8 @@ main {
 
 p {
   margin-top: 20px;
-  display: block;
   background-color: #fff;
-  font-size: 35px;
+  font-size: 31px;
   font-family: monospace;
   color: #000;
   border-radius: 5px;
@@ -37,7 +36,6 @@ p {
 }
 
 div {
-  margin-left: 20px;
   display: inline-block;
   background-color: #fff;
   font-size: 35px;
@@ -61,4 +59,10 @@ div {
   background-color: #000;
   color: #fff;
   cursor: pointer;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
